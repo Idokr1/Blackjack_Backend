@@ -45,7 +45,7 @@ namespace Blackjack_Backend.Services
         public void DealerPlayes()
         {
             if (_game.Winner != null)
-                throw new Exception("The game has already been won by " + _game.Winner);
+                _game.Winner = "Dealer";
 
             _game.DealerHand.Cards[1].IsHoleCard = false;
 
