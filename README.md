@@ -10,8 +10,9 @@ The project follows Clean Architecture principles, which means that the code is 
 ## Run the Project:
 1. Run the server solution and keep it on.
 2. Open the client with Visual Studio Code > Open Services - Api-service.js > Locate "const Axios" > Make sure the baseUrl is "https://localhost:7055/api/Game/"
-3. Run the client using a terminal with "npm start" command
-4. Open the application in your browser: http://localhost:3000
+3. Install the client's dependencies by opening and running the "npm install --legacy-peer-deps" command inside the client's directory using a terminal
+4. Run the client using the terminal with "npm start" command
+5. Open the application in your browser: http://localhost:3000
 
 ## Built With
 1. React
